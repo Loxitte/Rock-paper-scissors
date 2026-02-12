@@ -1,27 +1,16 @@
 console.log("Hello World")
 
-function getComputerChoice() {
-    let randomNumber = Math.random;
+function randomInt() {
+    return Math.floor(Math.random() * 3);
+}
 
-    let result;
+console.log(randomInt())
+//Generate random integer from 0 to 2//
 
-    if(randomNumber <= 0.333) {
-        result = "Rock";
-    } else if(randomNumber >= 0.667) {
-        result = "Scissors";
-    } else {
-        result = "Paper";
-    }
 
-    return result;
-    }
+//IF RI is equal to 0, assign value "rock"//
 
-    console.log(getComputerChoice);
-//Generate random number from 0 to 1//
-
-//IF RN is less than or equal to 0.333, assign value "rock"//
-
-//IF RN greater than or equal to 0.667, assign value "scissors"//
+//IF RI equal to 1 assign value "scissors"//
 
 //ELSE, assign value "Paper"//
 
