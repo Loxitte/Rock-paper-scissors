@@ -20,3 +20,16 @@ console.log (getComputerChoice())
 //IF RI equal to 1 assign value "scissors"
 //ELSE, assign value "Paper"
 
+function getHumanChoice() {
+    prompt("Rock, paper, or scissors?")
+}
+console.log(getHumanChoice())
+//Prompt user to enter value, rock paper or scissors
+
+let humanScore = 0
+//Create variable humanScore
+let computerScore = 0
+//Create variable computerScore
+console.log (humanScore)
+console.log (computerScore)
+
